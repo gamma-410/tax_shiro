@@ -1,0 +1,12 @@
+import stdio.h
+func int main void
+  int f
+  int consumptionTax
+  int taxIncludedPrice
+  printf ">>>"
+  scanf "%d" &f
+  in consumptionTax = f*0.1
+  in taxIncludedPrice = f+consumptionTax
+  printf "¥%d(tax=¥%d)\n",taxIncludedPrice,consumptionTax
+  retu 0
+END
